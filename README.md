@@ -1,40 +1,60 @@
-# vue-project
+# Greenspark Vue Project
 
-This template should help get you started developing with Vue 3 in Vite.
+## Overview
 
-## Recommended IDE Setup
+This project is a Vue.js application that serves as a dashboard for managing and interacting with per-product widgets. The widgets can be customized in terms of type, amount, action, and color. 
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Contributions
 
-## Type Support for `.vue` Imports in TS
+- **Card Component Enhancements:** Improved the `Card` component to make it fully reactive. Implemented features such as toggling the active state, updating card links, and changing card colors.
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+- **Storybook Integration:** Integrated Storybook for better component development and testing. Added stories for `Card` and related components.
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+## How to Run and Use the Service
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+### Installation
 
-## Customize configuration
+1. Clone the repository:
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+    ```bash
+    git clone https://github.com/your-username/greenspark-vue.git
+    ```
 
-## Project Setup
+2. Change into the project directory:
 
-```sh
-npm install
-```
+    ```bash
+    cd greenspark-vue
+    ```
 
-### Compile and Hot-Reload for Development
+3. Install dependencies:
 
-```sh
+    ```bash
+    npm install
+    ```
+
+### Running the Development Server
+
+Start the development server:
+
+```bash
 npm run dev
-```
 
-### Type-Check, Compile and Minify for Production
 
-```sh
-npm run build
-```
+
+## Storybook
+
+This project utilizes Storybook for component development and testing. To start Storybook, follow these steps:
+
+### Installation
+
+Ensure you have Storybook installed globally:
+
+```bash
+npm install -g storybook
+
+
+## Running Storybook
+Start Storybook in development mode:
+
+```bash
+npm run storybook
