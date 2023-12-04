@@ -126,6 +126,7 @@ watch(
   border-radius: 5.955px;
   background: #3b755f;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.01);
+  width: 200px;
 }
 
 .logo-wrapper {
